@@ -1,0 +1,23 @@
+{
+  "name": "uas-ppl-ti3g-kelompok5",
+  "version": "1.0.0",
+  "description": "UAS PPL Kelompok 5",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^9.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Almasyriqi/UAS-PPL-TI3G-Kelompok5.git"
+  },
+  "author": "TI-3G_Kelompok5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Almasyriqi/UAS-PPL-TI3G-Kelompok5/issues"
+  },
+  "homepage": "https://github.com/Almasyriqi/UAS-PPL-TI3G-Kelompok5#readme"
+}
