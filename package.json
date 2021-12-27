@@ -4,9 +4,13 @@
   "description": "UAS PPL Kelompok 5",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^9.2.0"
+    "cypress": "^9.2.0",
+    "cypress-downloadfile": "^1.2.1",
+    "cypress-real-events": "^1.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cy-verify-downloads": "0.0.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
