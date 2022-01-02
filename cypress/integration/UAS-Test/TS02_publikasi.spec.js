@@ -31,13 +31,14 @@ describe('Test Publikasi', () => {
         cy.get('h1').should('contain', 'Seminar Informatika Aplikatif (SIAP)');
     });
 
-    //Test Case 02
+    // Test Case 02
     it('Membuka website JIP', () => {
         cy.get('#menu-item-1402').contains('Publikasi').realHover();
         cy.get('#menu-item-1357').should('be.visible')
         cy.get('#menu-item-1357').contains('Jurnal Informatika Polinema (JIP)').click({force: true});
         cy.url().should('include', '/jurnal-informatika-polinema-jip')
         cy.get('h1').should('contain', 'Jurnal Informatika Polinema (JIP)');
+        cy.get('a').contains('http://jip.polinema.ac.id').should('be.visible');
 
         cy.get('a').contains('http://jip.polinema.ac.id').invoke('removeAttr', 'target').click();
         cy.url().should('include', '/jip')
